@@ -1,0 +1,7 @@
+
+# Esy and other OCaml stuff
+*.install
+_esy
+build
+ppx.exe
+node_modules
