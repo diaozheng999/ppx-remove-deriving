@@ -1,8 +1,8 @@
 {
-  "name": "@nasi/ppx-precisely-common",
-  "version": "0.1.1",
-  "esy": { "build": "dune build -p ppx_precisely_common" },
-  "description": "[Esy dependency] Common utilities to write ReScript-specific PPXes",
+  "name": "@nasi/ppx-remove-deriving",
+  "version": "0.1.0",
+  "esy": { "build": "dune build -p ppx_remove_deriving" },
+  "description": "[Esy dependency] Removes unrecognised [@@deriving] extensions by ReScript",
   "dependencies": {
     "@opam/ocaml-migrate-parsetree": "2.1.0",
     "@opam/ocamlfind-secondary": "*",

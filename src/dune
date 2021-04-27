@@ -1,5 +1,5 @@
 (library
- (name ppx_precisely_common)
- (public_name ppx_precisely_common)
+ (name ppx_remove_deriving)
+ (public_name ppx_remove_deriving)
  (libraries ppxlib)
  (preprocess (pps ppxlib.metaquot)))
