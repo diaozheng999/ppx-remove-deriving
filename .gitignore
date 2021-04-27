@@ -5,3 +5,5 @@ _esy
 build
 ppx.exe
 node_modules
+
+.vscode

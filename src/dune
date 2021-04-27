@@ -1,5 +1,6 @@
 (library
  (name ppx_remove_deriving)
  (public_name ppx_remove_deriving)
+ (kind ppx_rewriter)
  (libraries ppxlib)
  (preprocess (pps ppxlib.metaquot)))
