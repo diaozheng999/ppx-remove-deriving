@@ -1,18 +1,23 @@
 {
   "name": "@nasi/ppx-remove-deriving",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "esy": { "build": "dune build -p ppx_remove_deriving" },
   "description": "[Esy dependency] Removes unrecognised [@@deriving] extensions by ReScript",
   "dependencies": {
     "@opam/ocaml-migrate-parsetree": "2.1.0",
     "@opam/ocamlfind-secondary": "*",
     "@opam/ppxlib": "0.22.0",
-    "@opam/dune": "2.8.4",
-    "ocaml": "4.11.x"
+    "@opam/dune": "2.8.5",
+    "ocaml": ">=4.06.1"
   },
+  "files": [
+    "src",
+    "dune-project",
+    "LICENSE",
+    "ppx_remove_deriving.opam"
+  ],
   "devDependencies": {
-    "@opam/merlin": "4.1-411",
-    "@opam/ocaml-lsp-server": "1.4.1",
+    "@opam/ocaml-lsp-server": "github:diaozheng999/ocaml-lsp:ocaml-lsp-server.opam#c426212076cbbdc584b8c8a93e951e639c067547",
     "@opam/ocamlformat": "0.17.0"
   }
 }
