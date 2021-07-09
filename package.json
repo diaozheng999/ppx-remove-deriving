@@ -1,13 +1,12 @@
 {
   "name": "@nasi/ppx-remove-deriving",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "esy": { "build": "dune build -p ppx_remove_deriving" },
   "description": "[Esy dependency] Removes unrecognised [@@deriving] extensions by ReScript",
   "dependencies": {
     "@opam/ocaml-migrate-parsetree": "2.1.0",
-    "@opam/ocamlfind-secondary": "*",
     "@opam/ppxlib": "0.22.0",
-    "@opam/dune": "2.8.5",
+    "@opam/dune": "~2.8.5",
     "ocaml": ">=4.06.1"
   },
   "files": [
